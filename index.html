@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="utf-8">
+		<title>form 1</title>
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="css/form.css">
+	</head>
+	<body>
+		  
+			<form>
+				<div class="holder">
+				<h2>SignUp Free</h2>
+				<input type="text" name="" placeholder="Your Name">
+				<input type="email" name="" placeholder="Email">
+				<input type="text" name="" placeholder="Mobile Number">
+				<input type="password" name="" placeholder="Password">
+				<input type="password" name="" placeholder="Confirm Password">
+
+				<label>Date Of Birth</label>
+
+				<script type="text/javascript">
+					document.write("<div class='select'>");
+					document.write("<select>");
+					document.write("<option disabled selected>"+"Month"+"</option>");
+						for (var i = 1;  i <= 12; i++) {
+							document.write("<option>"+i+"</option>");
+						}
+					document.write("</select>");
+
+						document.write("<select>");
+						document.write("<option disabled selected>"+"Day"+"</option>");
+						for (var i = 1;  i <= 30; i++) {
+							document.write("<option>"+i+"</option>");
+						}
+					document.write("</select>");
+					document.write("<select>");
+					document.write("<option disabled selected>"+"Year"+"</option>");
+						for (var i = 1940;  i <= 2021; i++) {
+							document.write("<option>"+i+"</option>");
+						}
+					document.write("</select>");
+					document.write("</div>");
+				</script>
+				<div class="radio">
+				<input type="radio" name="gender" value="male">male
+				<input type="radio" name="gender" value="female">female
+			    </div>
+				<input type="checkbox" name="">I Agree To The Terms Of Use
+				<input type="submit" name="" value="Submit Now">
+					</div>
+			</form>
+
+
+		
+	</body>
+	</html>
